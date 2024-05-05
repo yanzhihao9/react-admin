@@ -14,7 +14,9 @@ export default defineConfig(async () => {
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
+        'antlr4': path.resolve(__dirname, 'node_modules/antlr4/dist/antlr4.web.mjs'),
       },
+
     },
     server: {
       port: 3000,
