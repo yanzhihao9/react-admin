@@ -6,7 +6,6 @@ import MainMenu from "@/components/MainMenu";
 import MyAvatar from "@/views/Main/Avatar";
 import styles from "./main.module.scss";
 
-import log from "@/assets/img/logo/logo (1)11.png";
 import {parseDDL} from "@/views/Main/MySqlParser";
 
 const { Header, Content } = Layout;
